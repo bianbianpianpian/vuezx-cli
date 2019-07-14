@@ -1,0 +1,113 @@
+.layout{
+    // border: 1px solid #d7dde4;
+    // background: #f5f7f9;
+}
+.layout-logo{
+    width: 190px;
+    line-height: 30px;
+    height: 30px;
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    color: rgba(255,255,255,.7);
+    font-size: 20px;
+}
+.layout-nav{
+    min-width: 520px;
+    margin: 0 auto;
+    // overflow: hidden;
+    float: right;
+    margin-right: 50px;
+}
+.layout-assistant{
+    width: 300px;
+    margin: 0 auto;
+    height: inherit;
+}
+.layout-breadcrumb{
+    padding: 10px 15px 0;
+}
+.layout-content{
+    min-height: 200px;
+    margin: 15px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 4px;
+}
+.layout-content-main{
+    padding: 10px;
+}
+.layout-copy{
+    text-align: center;
+    padding: 10px 0 20px;
+    color: #9ea7b4;
+}
+.layout-button {
+	float: right;
+	margin-right: 20px;
+	.ivu-btn-ghost {
+		color: #fff;
+		&:hover {
+			border-color: #fff;
+		}
+	}
+}
+.ivu-menu-item a,  {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+.ivu-menu-item>a>i {
+    margin-right: 6px;
+}
+.ivu-menu-dark.ivu-menu-horizontal .ivu-menu-item a{
+	color: rgba(255,255,255,.7);
+	display: inline-block;
+	height: 100%;
+}
+.ivu-menu-dark.ivu-menu-horizontal .ivu-menu-submenu a {
+    color: rgba(255,255,255,.7);
+    display: block;
+    height: 100%;
+}
+.ivu-menu-horizontal .ivu-menu-submenu .ivu-select-dropdown .ivu-menu-item-selected {
+    color: #495060;
+    background-color: #fff;
+}
+.v-header {
+	.v-active {
+		.ivu-menu-item{
+			color: #fff !important;
+			background-color: #f24f44 !important;
+		}
+	}
+    .ivu-menu-item-active {
+        background-color: #f24f44 !important;
+    }
+}
+// .ivu-menu-dark.ivu-menu-horizontal .ivu-menu-item-active a, .ivu-menu-dark.ivu-menu-horizontal .ivu-menu-item:hover a, .ivu-menu-dark.ivu-menu-horizontal .ivu-menu-submenu-active a, .ivu-menu-dark.ivu-menu-horizontal .ivu-menu-submenu:hover a {
+// 	color: #fff;
+// }
+// .navbar-inverse {
+// 	border: none;
+// 	background-color: #3c3d41;
+// 	.split {
+// 		a {
+// 			color: #fff !important;
+// 			cursor: default;
+// 		}
+// 	}
+// 	.navbar-nav.pull-right {
+// 		li {
+// 			a {
+// 				padding-left: 35px;
+// 				padding-right: 35px;
+// 				&.v-active {
+// 					background-color: #f24f44;
+// 					color: #fff;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
